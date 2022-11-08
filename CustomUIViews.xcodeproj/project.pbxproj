@@ -12,6 +12,7 @@
 		520B6F61291A4D9B005DAC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520B6F60291A4D9B005DAC90 /* Assets.xcassets */; };
 		520B6F64291A4D9B005DAC90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520B6F63291A4D9B005DAC90 /* Preview Assets.xcassets */; };
 		520B6F6B291A4DCB005DAC90 /* LongPressButtonWithGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B6F6A291A4DCB005DAC90 /* LongPressButtonWithGauge.swift */; };
+		520B6F6D291A52D8005DAC90 /* MagnificationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B6F6C291A52D8005DAC90 /* MagnificationGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		520B6F60291A4D9B005DAC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		520B6F63291A4D9B005DAC90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		520B6F6A291A4DCB005DAC90 /* LongPressButtonWithGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButtonWithGauge.swift; sourceTree = "<group>"; };
+		520B6F6C291A52D8005DAC90 /* MagnificationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				520B6F5C291A4D99005DAC90 /* CustomUIViewsApp.swift */,
 				520B6F5E291A4D99005DAC90 /* ContentView.swift */,
 				520B6F6A291A4DCB005DAC90 /* LongPressButtonWithGauge.swift */,
+				520B6F6C291A52D8005DAC90 /* MagnificationGestureView.swift */,
 				520B6F60291A4D9B005DAC90 /* Assets.xcassets */,
 				520B6F62291A4D9B005DAC90 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				520B6F6B291A4DCB005DAC90 /* LongPressButtonWithGauge.swift in Sources */,
+				520B6F6D291A52D8005DAC90 /* MagnificationGestureView.swift in Sources */,
 				520B6F5F291A4D99005DAC90 /* ContentView.swift in Sources */,
 				520B6F5D291A4D99005DAC90 /* CustomUIViewsApp.swift in Sources */,
 			);
