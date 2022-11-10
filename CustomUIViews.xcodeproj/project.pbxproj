@@ -16,6 +16,7 @@
 		521B5FF6291B501E002AA68F /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5FF5291B501E002AA68F /* RotationGestureView.swift */; };
 		521B5FF8291B55B1002AA68F /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5FF7291B55B1002AA68F /* DragGestureView.swift */; };
 		521B5FFA291B6F97002AA68F /* DragGesturePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5FF9291B6F97002AA68F /* DragGesturePopUpView.swift */; };
+		52FE5C0D291CB4E9009B791A /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5C0C291CB4E8009B791A /* ScrollViewReaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		521B5FF5291B501E002AA68F /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
 		521B5FF7291B55B1002AA68F /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		521B5FF9291B6F97002AA68F /* DragGesturePopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesturePopUpView.swift; sourceTree = "<group>"; };
+		52FE5C0C291CB4E8009B791A /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				521B5FF5291B501E002AA68F /* RotationGestureView.swift */,
 				521B5FF7291B55B1002AA68F /* DragGestureView.swift */,
 				521B5FF9291B6F97002AA68F /* DragGesturePopUpView.swift */,
+				52FE5C0C291CB4E8009B791A /* ScrollViewReaderView.swift */,
 				520B6F60291A4D9B005DAC90 /* Assets.xcassets */,
 				520B6F62291A4D9B005DAC90 /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 				521B5FF6291B501E002AA68F /* RotationGestureView.swift in Sources */,
 				521B5FFA291B6F97002AA68F /* DragGesturePopUpView.swift in Sources */,
 				520B6F5F291A4D99005DAC90 /* ContentView.swift in Sources */,
+				52FE5C0D291CB4E9009B791A /* ScrollViewReaderView.swift in Sources */,
 				521B5FF8291B55B1002AA68F /* DragGestureView.swift in Sources */,
 				520B6F5D291A4D99005DAC90 /* CustomUIViewsApp.swift in Sources */,
 			);
