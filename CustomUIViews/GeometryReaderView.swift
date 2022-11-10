@@ -14,11 +14,11 @@ struct GeometryReaderView: View {
                 GeometryReader { geometry in
                     RoundedRectangle(cornerRadius: 10)
                         .rotation3DEffect(
-                            Angle(degrees: getPercentage(geo: geometry) * -30),
+                            Angle(degrees: getPercentage(geo: geometry) * 30),
                             axis: (x: 1.0, y: 0.0, z: 0.0)
                         )
                 }
-                .frame(width: 200, height: 300)
+                .frame(width: 200, height: 500)
                 .padding(30)
             }
         }
@@ -27,7 +27,7 @@ struct GeometryReaderView: View {
     func getPercentage(geo: GeometryProxy) -> Double {
         let maxDistance = UIScreen.main.bounds.height / 2
         let currentY = geo.frame(in: .global).midY
-        return Double(1 - currentY / maxDistance)
+        return -Double(1 - currentY / maxDistance)
     }
 }
 
