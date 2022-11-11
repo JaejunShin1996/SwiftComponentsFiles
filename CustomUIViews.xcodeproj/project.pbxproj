@@ -17,6 +17,9 @@
 		521B5FF8291B55B1002AA68F /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5FF7291B55B1002AA68F /* DragGestureView.swift */; };
 		521B5FFA291B6F97002AA68F /* DragGesturePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5FF9291B6F97002AA68F /* DragGesturePopUpView.swift */; };
 		52BE41C4291E3C8E0057FC90 /* MaskFiveStarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE41C3291E3C8E0057FC90 /* MaskFiveStarsExample.swift */; };
+		52BE41C6291E476B0057FC90 /* SoundEffectAVkitExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE41C5291E476B0057FC90 /* SoundEffectAVkitExample.swift */; };
+		52BE41CA291E48210057FC90 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BE41C8291E48200057FC90 /* ding.mp3 */; };
+		52BE41CB291E48210057FC90 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52BE41C9291E48200057FC90 /* tada.mp3 */; };
 		52FE5C0D291CB4E9009B791A /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5C0C291CB4E8009B791A /* ScrollViewReaderView.swift */; };
 		52FE5C0F291CC094009B791A /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5C0E291CC094009B791A /* GeometryReaderView.swift */; };
 		52FE5C19291CF0D7009B791A /* MultipleSheetsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5C18291CF0D7009B791A /* MultipleSheetsExample.swift */; };
@@ -34,6 +37,9 @@
 		521B5FF7291B55B1002AA68F /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		521B5FF9291B6F97002AA68F /* DragGesturePopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesturePopUpView.swift; sourceTree = "<group>"; };
 		52BE41C3291E3C8E0057FC90 /* MaskFiveStarsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskFiveStarsExample.swift; sourceTree = "<group>"; };
+		52BE41C5291E476B0057FC90 /* SoundEffectAVkitExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffectAVkitExample.swift; sourceTree = "<group>"; };
+		52BE41C8291E48200057FC90 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ding.mp3; path = ../../../../ding.mp3; sourceTree = "<group>"; };
+		52BE41C9291E48200057FC90 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tada.mp3; path = ../../../../tada.mp3; sourceTree = "<group>"; };
 		52FE5C0C291CB4E8009B791A /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
 		52FE5C0E291CC094009B791A /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		52FE5C18291CF0D7009B791A /* MultipleSheetsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsExample.swift; sourceTree = "<group>"; };
@@ -80,7 +86,9 @@
 				52FE5C0E291CC094009B791A /* GeometryReaderView.swift */,
 				52FE5C18291CF0D7009B791A /* MultipleSheetsExample.swift */,
 				52BE41C3291E3C8E0057FC90 /* MaskFiveStarsExample.swift */,
+				52BE41C5291E476B0057FC90 /* SoundEffectAVkitExample.swift */,
 				520B6F60291A4D9B005DAC90 /* Assets.xcassets */,
+				52BE41C7291E480D0057FC90 /* Sound */,
 				520B6F62291A4D9B005DAC90 /* Preview Content */,
 			);
 			path = CustomUIViews;
@@ -92,6 +100,15 @@
 				520B6F63291A4D9B005DAC90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52BE41C7291E480D0057FC90 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				52BE41C8291E48200057FC90 /* ding.mp3 */,
+				52BE41C9291E48200057FC90 /* tada.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BE41CB291E48210057FC90 /* tada.mp3 in Resources */,
+				52BE41CA291E48210057FC90 /* ding.mp3 in Resources */,
 				520B6F64291A4D9B005DAC90 /* Preview Assets.xcassets in Resources */,
 				520B6F61291A4D9B005DAC90 /* Assets.xcassets in Resources */,
 			);
@@ -173,6 +192,7 @@
 				52FE5C0D291CB4E9009B791A /* ScrollViewReaderView.swift in Sources */,
 				521B5FF8291B55B1002AA68F /* DragGestureView.swift in Sources */,
 				520B6F5D291A4D99005DAC90 /* CustomUIViewsApp.swift in Sources */,
+				52BE41C6291E476B0057FC90 /* SoundEffectAVkitExample.swift in Sources */,
 				52FE5C19291CF0D7009B791A /* MultipleSheetsExample.swift in Sources */,
 				52FE5C0F291CC094009B791A /* GeometryReaderView.swift in Sources */,
 			);
