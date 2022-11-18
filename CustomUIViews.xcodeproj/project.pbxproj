@@ -17,6 +17,7 @@
 		521B5FF8291B55B1002AA68F /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5FF7291B55B1002AA68F /* DragGestureView.swift */; };
 		521B5FFA291B6F97002AA68F /* DragGesturePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B5FF9291B6F97002AA68F /* DragGesturePopUpView.swift */; };
 		52624C852927377000C8E87C /* FileManagerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52624C842927377000C8E87C /* FileManagerExample.swift */; };
+		52624C87292762AB00C8E87C /* CacheExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52624C86292762AA00C8E87C /* CacheExample.swift */; };
 		52BE41C4291E3C8E0057FC90 /* MaskFiveStarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE41C3291E3C8E0057FC90 /* MaskFiveStarsExample.swift */; };
 		52BE41C6291E476B0057FC90 /* SoundEffectAVkitExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE41C5291E476B0057FC90 /* SoundEffectAVkitExample.swift */; };
 		52FE5C0D291CB4E9009B791A /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5C0C291CB4E8009B791A /* ScrollViewReaderView.swift */; };
@@ -36,6 +37,7 @@
 		521B5FF7291B55B1002AA68F /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		521B5FF9291B6F97002AA68F /* DragGesturePopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesturePopUpView.swift; sourceTree = "<group>"; };
 		52624C842927377000C8E87C /* FileManagerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExample.swift; sourceTree = "<group>"; };
+		52624C86292762AA00C8E87C /* CacheExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheExample.swift; sourceTree = "<group>"; };
 		52BE41C3291E3C8E0057FC90 /* MaskFiveStarsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskFiveStarsExample.swift; sourceTree = "<group>"; };
 		52BE41C5291E476B0057FC90 /* SoundEffectAVkitExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffectAVkitExample.swift; sourceTree = "<group>"; };
 		52FE5C0C291CB4E8009B791A /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				52BE41C3291E3C8E0057FC90 /* MaskFiveStarsExample.swift */,
 				52BE41C5291E476B0057FC90 /* SoundEffectAVkitExample.swift */,
 				52624C842927377000C8E87C /* FileManagerExample.swift */,
+				52624C86292762AA00C8E87C /* CacheExample.swift */,
 				520B6F60291A4D9B005DAC90 /* Assets.xcassets */,
 				52BE41C7291E480D0057FC90 /* Sound */,
 				520B6F62291A4D9B005DAC90 /* Preview Content */,
@@ -191,6 +194,7 @@
 				52BE41C6291E476B0057FC90 /* SoundEffectAVkitExample.swift in Sources */,
 				52FE5C19291CF0D7009B791A /* MultipleSheetsExample.swift in Sources */,
 				52FE5C0F291CC094009B791A /* GeometryReaderView.swift in Sources */,
+				52624C87292762AB00C8E87C /* CacheExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
