@@ -27,6 +27,8 @@
 		52624C87292762AB00C8E87C /* CacheExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52624C86292762AA00C8E87C /* CacheExample.swift */; };
 		52BE41C4291E3C8E0057FC90 /* MaskFiveStarsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE41C3291E3C8E0057FC90 /* MaskFiveStarsExample.swift */; };
 		52BE41C6291E476B0057FC90 /* SoundEffectAVkitExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE41C5291E476B0057FC90 /* SoundEffectAVkitExample.swift */; };
+		52D9B6BC292E0BB80071362C /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9B6BB292E0BB80071362C /* PhotoModelCacheManager.swift */; };
+		52D9B6BE292E0CFF0071362C /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9B6BD292E0CFF0071362C /* PhotoModelFileManager.swift */; };
 		52FE5C0D291CB4E9009B791A /* ScrollViewReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5C0C291CB4E8009B791A /* ScrollViewReaderView.swift */; };
 		52FE5C0F291CC094009B791A /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5C0E291CC094009B791A /* GeometryReaderView.swift */; };
 		52FE5C19291CF0D7009B791A /* MultipleSheetsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FE5C18291CF0D7009B791A /* MultipleSheetsExample.swift */; };
@@ -54,6 +56,8 @@
 		52624C86292762AA00C8E87C /* CacheExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheExample.swift; sourceTree = "<group>"; };
 		52BE41C3291E3C8E0057FC90 /* MaskFiveStarsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskFiveStarsExample.swift; sourceTree = "<group>"; };
 		52BE41C5291E476B0057FC90 /* SoundEffectAVkitExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffectAVkitExample.swift; sourceTree = "<group>"; };
+		52D9B6BB292E0BB80071362C /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		52D9B6BD292E0CFF0071362C /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 		52FE5C0C291CB4E8009B791A /* ScrollViewReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderView.swift; sourceTree = "<group>"; };
 		52FE5C0E291CC094009B791A /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		52FE5C18291CF0D7009B791A /* MultipleSheetsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsExample.swift; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				525A7C55292C848B00F29E6B /* PhotoModelDataService.swift */,
+				52D9B6BB292E0BB80071362C /* PhotoModelCacheManager.swift */,
+				52D9B6BD292E0CFF0071362C /* PhotoModelFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -243,7 +249,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				520B6F6B291A4DCB005DAC90 /* LongPressButtonWithGauge.swift in Sources */,
+				52D9B6BC292E0BB80071362C /* PhotoModelCacheManager.swift in Sources */,
 				520B6F6D291A52D8005DAC90 /* MagnificationGestureView.swift in Sources */,
+				52D9B6BE292E0CFF0071362C /* PhotoModelFileManager.swift in Sources */,
 				521B5FF6291B501E002AA68F /* RotationGestureView.swift in Sources */,
 				52624C852927377000C8E87C /* FileManagerExample.swift in Sources */,
 				521B5FFA291B6F97002AA68F /* DragGesturePopUpView.swift in Sources */,
