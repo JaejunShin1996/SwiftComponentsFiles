@@ -34,7 +34,7 @@ struct CustomButtonStyleExample: View {
         } label: {
             Text("Button style")
                 .foregroundColor(.white)
-                .defaultTextViewFormatting()
+                .withDefaultTextViewFormatting()
         }
         .withScalableButtonStyle(scaleAmount: 0.7)
     }

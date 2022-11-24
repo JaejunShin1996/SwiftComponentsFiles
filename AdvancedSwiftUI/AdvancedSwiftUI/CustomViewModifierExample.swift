@@ -21,7 +21,7 @@ struct TextViewModifier: ViewModifier {
 }
 
 extension View {
-    func defaultTextViewFormatting() -> some View {
+    func withDefaultTextViewFormatting() -> some View {
         modifier(TextViewModifier())
     }
 }
@@ -30,13 +30,13 @@ struct CustomViewModifierExample: View {
     var body: some View {
         VStack {
             Text("Hello, world!")
-                .defaultTextViewFormatting()
+                .withDefaultTextViewFormatting()
 
             Text("Hello, world!")
-                .defaultTextViewFormatting()
+                .withDefaultTextViewFormatting()
 
             Text("Hello, world!")
-                .defaultTextViewFormatting()
+                .withDefaultTextViewFormatting()
         }
     }
 }
