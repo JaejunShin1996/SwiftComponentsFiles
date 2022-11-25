@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522467142930B5DA00C3F65D /* MatchedGeometryEffectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522467132930B5DA00C3F65D /* MatchedGeometryEffectExample.swift */; };
 		5297096A292F540700491952 /* AdvancedSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52970969292F540700491952 /* AdvancedSwiftUIApp.swift */; };
 		5297096C292F540700491952 /* CustomViewModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297096B292F540700491952 /* CustomViewModifierExample.swift */; };
 		5297096E292F540900491952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5297096D292F540900491952 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		522467132930B5DA00C3F65D /* MatchedGeometryEffectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectExample.swift; sourceTree = "<group>"; };
 		52970966292F540700491952 /* AdvancedSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52970969292F540700491952 /* AdvancedSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSwiftUIApp.swift; sourceTree = "<group>"; };
 		5297096B292F540700491952 /* CustomViewModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifierExample.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				5297096B292F540700491952 /* CustomViewModifierExample.swift */,
 				5297097B292F622200491952 /* CustomButtonStyleExample.swift */,
 				5297097D292F6AD700491952 /* AnyTransitionExample.swift */,
+				522467132930B5DA00C3F65D /* MatchedGeometryEffectExample.swift */,
 				5297096D292F540900491952 /* Assets.xcassets */,
 				5297096F292F540900491952 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522467142930B5DA00C3F65D /* MatchedGeometryEffectExample.swift in Sources */,
 				5297097E292F6AD700491952 /* AnyTransitionExample.swift in Sources */,
 				5297096C292F540700491952 /* CustomViewModifierExample.swift in Sources */,
 				5297097C292F622200491952 /* CustomButtonStyleExample.swift in Sources */,
@@ -283,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +317,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
